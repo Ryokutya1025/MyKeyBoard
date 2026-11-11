@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "OrbitSplit_Custom") (type "KiCad") (uri "${KIPRJMOD}/../Symbol_FootPrint/OrbitSplitCustom/OrbitSplit_Custom.kicad_sym") (options "") (descr ""))
+)

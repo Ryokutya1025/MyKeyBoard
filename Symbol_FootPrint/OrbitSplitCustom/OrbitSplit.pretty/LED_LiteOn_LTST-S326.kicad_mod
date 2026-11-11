@@ -1,0 +1,255 @@
+(footprint "LED_LiteOn_LTST-S326"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "http://optoelectronics.liteon.com/upload/download/DS22-2000-287/LTST-S326KGJRKT.PDF")
+	(tags "LED SMD right angle  CCA")
+	(property "Reference" "D1101"
+		(at -1.75 0 90)
+		(layer "F.SilkS")
+		(uuid "87943943-128e-4462-87df-5da10eb9d4e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_Dual_KAK"
+		(at 0.25 3 0)
+		(layer "F.Fab")
+		(uuid "98962950-444f-4034-b1b1-c0ac088f8e95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6527cb2-e941-44c8-b072-119a64d09d32")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Dual LED, common anode on pin 2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec1c6958-2fc7-499c-9375-2c9c1a2dba00")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+	(sheetname "/11_POWER_RIGHT/")
+	(sheetfile "11_POWER_RIGHT.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 1 -1.75)
+		(end 1 -1.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "534072b3-4f7b-4daf-a781-bb760537b22b")
+	)
+	(fp_line
+		(start 1 -1.25)
+		(end 1.25 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8263ee3-6ede-44fe-a960-6e2f0314c594")
+	)
+	(fp_line
+		(start 1 1.25)
+		(end 1 1.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d571376a-b4ae-4fc8-bf71-080ae70aae17")
+	)
+	(fp_line
+		(start 1 1.25)
+		(end 1.25 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e275bde-b8b4-450b-a98a-bbdf577185ef")
+	)
+	(fp_poly
+		(pts
+			(xy -1 -1.4) (xy -1.33 -1.16) (xy -1.33 -1.64) (xy -1 -1.4)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f73afdfe-2985-4880-a7dc-a21e5fbf2ce1")
+	)
+	(fp_line
+		(start -1.35 -2)
+		(end 1.75 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12aab906-7ef4-4214-b40d-76635c7ca356")
+	)
+	(fp_line
+		(start -1.35 2)
+		(end -1.35 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3f72530c-6e48-42c9-8af9-d81ee1de1000")
+	)
+	(fp_line
+		(start 1.75 -2)
+		(end 1.75 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c4d3a77-b18c-4454-9320-ef2d3b8907e5")
+	)
+	(fp_line
+		(start 1.75 2)
+		(end -1.35 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1db47145-caca-4238-9a97-08951a30f9ec")
+	)
+	(fp_line
+		(start -0.5 -1.5)
+		(end -0.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "71efec1d-91f1-493f-9c42-b858cfa2b47a")
+	)
+	(fp_line
+		(start -0.5 -1.5)
+		(end 0.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0f8563c5-501e-4b16-ab3c-5666d729f71f")
+	)
+	(fp_line
+		(start 0.5 -1.5)
+		(end 0.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e8f060c-5d79-4fc6-9300-d9a5143d86f8")
+	)
+	(fp_line
+		(start 0.5 1.5)
+		(end -0.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c804a7cd-6c8f-4bc0-971d-3a489b838a12")
+	)
+	(fp_line
+		(start 0.5 1.5)
+		(end 0.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e31d084b-6802-4ecc-a6cd-aaf79471f1ac")
+	)
+	(fp_arc
+		(start 0.5 -1)
+		(mid 1.5 0)
+		(end 0.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4a40fd37-dbaa-4f04-b279-74bf33d2d385")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "278181bb-704a-44bc-b99c-0ab0d151637e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -1.375 180)
+		(size 1.5 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "db815e49-7819-4710-89a5-e4db12fd4740")
+	)
+	(pad "2" smd rect
+		(at -0.65 0 180)
+		(size 0.9 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d5802ad1-2c78-4275-9c56-11e998000ced")
+	)
+	(pad "3" smd rect
+		(at 0 1.375 180)
+		(size 1.5 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "360d3507-e481-4e0c-aa38-315ecd301eb5")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../Symbol_FootPrint/OrbitSplitCustom/3D/LTST-S326KGJRKT.STEP"
+		(offset
+			(xyz 0.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

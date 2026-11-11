@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SKQYACE010'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "ON_LINE_COMPONENTS_PART_NUMBER", "ON_LINE_COMPONENTS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ALPS Electric", "SKQYACE010" (!) = "", "SKQYACE010", "Other", "", "", "6.13.7mm Compact High-speed Mounting Type (Surface Mount) SKQY Series", "https://tech.alpsalpine.com/e/products/detail/SKQYACE010/", "2.7 mm"
+END_PART
+
+END.

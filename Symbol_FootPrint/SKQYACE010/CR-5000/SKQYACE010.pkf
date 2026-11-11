@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SKQYACE010"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SKQYACE010")
+        (spec "default")
+    )
+)

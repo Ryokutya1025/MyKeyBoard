@@ -1,0 +1,149 @@
+(footprint "EC05E1220202"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "SW4002"
+		(at 0.5 0 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "358f187d-af35-405a-acf9-dde58b3aa424")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RotaryEncoder"
+		(at -0.000001 -7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8d5eb0ca-c0eb-47c9-9724-f97da00cc63e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4599b41-652a-40ba-b4b5-f1c3c4c6b149")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs"
+		(at 0 0 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "678e7def-e2f6-4914-af46-4ab834d9430d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "RotaryEncoder*")
+	(sheetname "/40_ENCODER_LEFT/")
+	(sheetfile "40_ENCODER_LEFT.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy 9 -9) (xy -9 -9) (xy -9 9) (xy 9 9)
+		)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "2d6846ea-ca1b-4ac8-bc66-432f9065ee1f")
+	)
+	(fp_poly
+		(pts
+			(xy 5 -5) (xy -5 -5) (xy -5 5) (xy 5 5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "1029e9e8-4cf8-43ca-b47a-05c30c465132")
+	)
+	(fp_poly
+		(pts
+			(xy 9.5 -9.5) (xy -9.5 -9.5) (xy -9.5 9.5) (xy 9.5 9.5)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4b45d565-1de3-47c5-9a14-60c51136294e")
+	)
+	(pad "" smd roundrect
+		(at 7.299999 3.75)
+		(size 2.7 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "afeb6f07-43de-4d47-8021-a42d050dbdfa")
+	)
+	(pad "" smd roundrect
+		(at 7.3 -3.75)
+		(size 2.7 1.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "5b9e6724-05fb-452f-bad4-dd24320dfb86")
+	)
+	(pad "A" smd roundrect
+		(at 6.5 2)
+		(size 2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "56d1d502-eaab-4df9-b3ec-4ac830fb407d")
+	)
+	(pad "B" smd roundrect
+		(at 6.500001 -2.000001)
+		(size 2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "30e76ad6-0ad4-4df5-9349-77440d6440f6")
+	)
+	(pad "C" smd roundrect
+		(at 6.5 0)
+		(size 2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "89358765-3579-4df9-99df-d5933c020a27")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/..//Symbol_FootPrint/OrbitSplitCustom/3D/ec05e1220203.stp"
+		(offset
+			(xyz 9.5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)

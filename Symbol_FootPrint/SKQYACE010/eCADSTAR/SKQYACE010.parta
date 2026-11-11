@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_1917309"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-04-12-18:33:49)
+    (utime 2025-11-10-13:52:05)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "SKQYACE010")
+)
+
+
+(pinAssign "ECS_1917309"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-04-12-18:33:49)
+    (utime 2025-11-10-13:52:05)
+    (interface
+        (port "1" (symbPinId 1) (portName "COM") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "NO") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1917309")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "SKQYACE010")
+)
+
+
+(part "SKQYACE010"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-04-12-18:33:49)
+    (utime 2025-11-10-13:52:05)
+    (packageRef "SKQYACE010")
+    (pinAssignRef "ECS_1917309")
+    (interface
+        (port "1" (symbPinId 1) (portName "COM") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "NO") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "S")
+    (property "description" "6.13.7mm Compact High-speed Mounting Type (Surface Mount) SKQY Series")
+    (property "On_Line_Components_Part_Number" "")
+    (property "On_Line_Components_Price/Stock" "")
+    (property "Manufacturer_Name" "ALPS Electric")
+    (property "Manufacturer_Part_Number" "SKQYACE010")
+    (property "Datasheet_Link" "https://tech.alpsalpine.com/e/products/detail/SKQYACE010/")
+    (property "compAreaTopHeight" 2.7)
+)
+
+
