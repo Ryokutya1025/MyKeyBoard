@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.2,
-          "width": 1.8
+          "height": 1.8,
+          "width": 1.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -196,6 +196,7 @@
       "track_widths": [
         0.0,
         0.2,
+        0.3,
         0.5,
         0.75,
         1.0
@@ -532,7 +533,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 5100,
+    "annotate_start_num": 10000,
     "annotation": {
       "method": 0,
       "sort_order": 1
@@ -801,7 +802,7 @@
         "uuid": "73b25e18-bccb-4ab0-839a-6017c939d33c"
       }
     ],
-    "used_designators": "SW3021-3023,SW3111,D3021-3023",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -868,6 +869,18 @@
     [
       "8b266d6e-1dd7-4b5f-b227-e0915cc87a25",
       "81_FLASH_RIGHT"
+    ],
+    [
+      "7e0776e9-658b-4827-9e28-190dc9753df2",
+      "90_AUDIO_LEFT"
+    ],
+    [
+      "c213ad0e-6b14-492a-9ab8-0972cf248205",
+      "91_AUDIO_RIGHT"
+    ],
+    [
+      "3b11179a-f31e-4142-a837-d2efb293431d",
+      "100_NFC_LEFT"
     ]
   ],
   "text_variables": {},

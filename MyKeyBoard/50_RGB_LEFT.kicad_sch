@@ -571,6 +571,275 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "OrbitSplit_Custom:SK6805MINI-E"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D5001"
+				(at -6.858 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SK6805MINI-E"
+				(at -6.858 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "OrbitSplit:SK6805MINI-E"
+				(at 1.27 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
+				(at 2.54 -9.525 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SK6805MINI-E_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6805MINI-E_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6805MINI-E_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -681,6 +950,121 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
@@ -2289,7 +2673,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
+		(lib_id "OrbitSplit_Custom:SK6805MINI-E")
 		(at 204.47 134.62 0)
 		(unit 1)
 		(body_style 1)
@@ -2309,7 +2693,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 197.612 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2319,7 +2703,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 205.74 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -2843,7 +3227,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
+		(lib_id "OrbitSplit_Custom:SK6805MINI-E")
 		(at 90.17 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -2863,7 +3247,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 83.312 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2873,7 +3257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 91.44 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3007,7 +3391,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
+		(lib_id "OrbitSplit_Custom:SK6805MINI-E")
 		(at 166.37 134.62 0)
 		(unit 1)
 		(body_style 1)
@@ -3027,7 +3411,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 159.512 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3037,7 +3421,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 167.64 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -3094,7 +3478,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
+		(lib_id "OrbitSplit_Custom:SK6805MINI-E")
 		(at 204.47 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -3114,7 +3498,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 197.612 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3124,7 +3508,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 205.74 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3422,7 +3806,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
+		(lib_id "OrbitSplit_Custom:SK6805MINI-E")
 		(at 166.37 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -3442,7 +3826,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 159.512 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3452,7 +3836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 167.64 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3668,7 +4052,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
+		(lib_id "OrbitSplit_Custom:SK6805MINI-E")
 		(at 185.42 134.62 0)
 		(unit 1)
 		(body_style 1)
@@ -3688,7 +4072,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 178.562 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3698,7 +4082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 186.69 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -4145,7 +4529,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
+		(lib_id "OrbitSplit_Custom:SK6805MINI-E")
 		(at 204.47 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -4165,7 +4549,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 197.612 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4175,7 +4559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 205.74 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4548,7 +4932,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
+		(lib_id "OrbitSplit_Custom:SK6805MINI-E")
 		(at 185.42 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -4568,7 +4952,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 178.562 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4578,7 +4962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 186.69 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5184,7 +5568,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
+		(lib_id "OrbitSplit_Custom:SK6805MINI-E")
 		(at 166.37 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -5204,7 +5588,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 159.512 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5214,7 +5598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 167.64 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5348,7 +5732,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
+		(lib_id "OrbitSplit_Custom:SK6805MINI-E")
 		(at 109.22 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -5368,7 +5752,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 102.362 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5378,7 +5762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 110.49 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5989,7 +6373,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
+		(lib_id "OrbitSplit_Custom:SK6805MINI-E")
 		(at 109.22 134.62 0)
 		(unit 1)
 		(body_style 1)
@@ -6009,7 +6393,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 102.362 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6019,7 +6403,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 110.49 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -6486,7 +6870,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
+		(lib_id "OrbitSplit_Custom:SK6805MINI-E")
 		(at 128.27 134.62 0)
 		(unit 1)
 		(body_style 1)
@@ -6506,7 +6890,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 121.412 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6516,7 +6900,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 129.54 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -6727,7 +7111,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
+		(lib_id "OrbitSplit_Custom:SK6805MINI-E")
 		(at 223.52 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -6747,7 +7131,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 216.662 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6757,7 +7141,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 224.79 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6891,7 +7275,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
+		(lib_id "OrbitSplit_Custom:SK6805MINI-E")
 		(at 109.22 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -6911,7 +7295,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 102.362 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6921,7 +7305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 110.49 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7132,7 +7516,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
+		(lib_id "OrbitSplit_Custom:SK6805MINI-E")
 		(at 90.17 134.62 0)
 		(unit 1)
 		(body_style 1)
@@ -7152,7 +7536,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 83.312 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7162,7 +7546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 91.44 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7219,7 +7603,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
+		(lib_id "OrbitSplit_Custom:SK6805MINI-E")
 		(at 147.32 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -7239,7 +7623,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 140.462 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7249,7 +7633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 148.59 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7388,7 +7772,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
+		(lib_id "OrbitSplit_Custom:SK6805MINI-E")
 		(at 128.27 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -7408,7 +7792,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 121.412 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7418,7 +7802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 129.54 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7553,6 +7937,83 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 90.17 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1d37862-4f0a-4aae-a855-876297183e71")
+		(property "Reference" "#PWR05048"
+			(at 90.17 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de822770-b5db-42f1-b715-7b9766c8bb54")
+		)
+		(instances
+			(project "MyKeyBoard"
+				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/4993f9a3-d16e-4921-b86f-cf8fb67dc03c"
+					(reference "#PWR05048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 115.57 83.82 0)
 		(unit 1)
 		(body_style 1)
@@ -7629,7 +8090,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
+		(lib_id "OrbitSplit_Custom:SK6805MINI-E")
 		(at 128.27 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -7649,7 +8110,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 121.412 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7659,7 +8120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 129.54 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8111,6 +8572,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 31.75 19.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a88f75fb-15f6-4ebd-8381-86a3e5ca6627")
+		(property "Reference" "#FLG09101"
+			(at 31.75 17.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 31.75 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 31.75 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6adbea55-a4e4-41cb-8188-9b813db9c8d5")
+		)
+		(instances
+			(project "MyKeyBoard"
+				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/4993f9a3-d16e-4921-b86f-cf8fb67dc03c"
+					(reference "#FLG09101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 96.52 118.11 0)
 		(unit 1)
@@ -8193,7 +8732,85 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
+		(lib_id "power:GND")
+		(at 31.75 19.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abe128ee-6b4e-4f9f-ab7f-79cb27fa0091")
+		(property "Reference" "#PWR09104"
+			(at 31.75 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 31.75 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 31.75 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "060641ac-f350-411b-9944-7dcfef7a7a74")
+		)
+		(instances
+			(project "MyKeyBoard"
+				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/4993f9a3-d16e-4921-b86f-cf8fb67dc03c"
+					(reference "#PWR09104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OrbitSplit_Custom:SK6805MINI-E")
 		(at 185.42 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -8213,7 +8830,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 178.562 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8223,7 +8840,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 186.69 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8752,7 +9369,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
+		(lib_id "OrbitSplit_Custom:SK6805MINI-E")
 		(at 147.32 96.52 0)
 		(unit 1)
 		(body_style 1)
@@ -8772,7 +9389,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 140.462 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8782,7 +9399,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 148.59 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8859,7 +9476,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 83.312 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8869,7 +9486,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 91.44 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9003,7 +9620,7 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812MINI-E")
+		(lib_id "OrbitSplit_Custom:SK6805MINI-E")
 		(at 223.52 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -9023,7 +9640,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 216.662 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9033,7 +9650,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 224.79 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9321,84 +9938,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 90.17 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ef1572fb-210e-4bde-b5d2-01bbf5eb285b")
-		(property "Reference" "#PWR05009"
-			(at 90.17 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 90.17 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "accc83e4-b285-4439-80b8-b3e8b3fa48b0")
-		)
-		(instances
-			(project "MyKeyBoard"
-				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/4993f9a3-d16e-4921-b86f-cf8fb67dc03c"
-					(reference "#PWR05009")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:SK6812MINI-E")
+		(lib_id "OrbitSplit_Custom:SK6805MINI-E")
 		(at 147.32 134.62 0)
 		(unit 1)
 		(body_style 1)
@@ -9418,7 +9958,7 @@
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6805MINI-E"
 			(at 140.462 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9428,7 +9968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OrbitSplit:SK6812MINI-E"
+		(property "Footprint" "OrbitSplit:SK6805MINI-E"
 			(at 148.59 142.24 0)
 			(hide yes)
 			(show_name no)

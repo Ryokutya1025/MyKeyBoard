@@ -1494,12 +1494,6 @@
 		(uuid "05d1c4e2-bf28-4179-b0dc-02c7d44633b9")
 	)
 	(junction
-		(at 57.15 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08597cb9-6f31-44ad-992c-69bfa1804ad0")
-	)
-	(junction
 		(at 66.04 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1530,10 +1524,10 @@
 		(uuid "5af849e2-1ee7-40ec-a5b2-e6f759eb76b0")
 	)
 	(junction
-		(at 54.61 106.68)
+		(at 57.15 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "73e7e138-4c62-4de9-9d86-0993268214d3")
+		(uuid "8c7f5966-1a51-4f22-a476-ff1594dbfbc5")
 	)
 	(junction
 		(at 139.7 63.5)
@@ -1587,7 +1581,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 110.49) (xy 54.61 106.68)
+			(xy 50.8 110.49) (xy 50.8 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1634,16 +1628,6 @@
 			(type default)
 		)
 		(uuid "0dfc7b60-49f2-4bf6-9850-ae25503ef1a2")
-	)
-	(wire
-		(pts
-			(xy 54.61 106.68) (xy 76.2 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "128751f7-a69d-481c-aca8-f5e47d71b2b9")
 	)
 	(wire
 		(pts
@@ -1797,7 +1781,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 110.49) (xy 57.15 110.49)
+			(xy 50.8 110.49) (xy 57.15 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1957,7 +1941,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 106.68) (xy 54.61 106.68)
+			(xy 50.8 106.68) (xy 76.2 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3239,6 +3223,103 @@
 		)
 	)
 	(symbol
+		(lib_id "OrbitSplit_Custom:RV-3028-C7")
+		(at 161.29 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "78acb543-1551-4057-8f93-ec8fb611adf1")
+		(property "Reference" "U7002"
+			(at 166.37 75.946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RV-3028-C7"
+			(at 166.37 78.486 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "OrbitSplit:RV-3028-C7"
+			(at 186.69 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3028-C7.pdf"
+			(at 161.29 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Realtime Clock/Calendar I2C Interface, Extreme Low Power, 1.1 V to 5.5 V, MicroCrystal C7"
+			(at 161.29 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "9a4b3634-0976-47f5-b021-3bacf0e1cc72")
+		)
+		(pin "6"
+			(uuid "e65bb493-acda-4dc7-85b8-f55f62c64b09")
+		)
+		(pin "8"
+			(uuid "72e3b5fa-60bc-4eec-81ec-4197e70a0752")
+		)
+		(pin "3"
+			(uuid "a985ebfd-f383-4531-8130-c33ee3ec133a")
+		)
+		(pin "4"
+			(uuid "13403d8a-f124-4994-b001-e2b1e4541409")
+		)
+		(pin "7"
+			(uuid "8fcca6a6-e670-45b6-b469-8f9acadf0fb5")
+		)
+		(pin "2"
+			(uuid "ee24f33b-79c5-4fd0-bce0-1f98c9c8047b")
+		)
+		(pin "1"
+			(uuid "6148106f-c7fd-40dd-be51-1ee4c6a77189")
+		)
+		(instances
+			(project "MyKeyBoard"
+				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/3b53a925-aafc-43fd-aa0e-822aea988d20"
+					(reference "U7002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "OrbitSplit_Custom:LIS2DTW12TR")
 		(at 54.61 129.54 0)
 		(unit 1)
@@ -3876,106 +3957,6 @@
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/3b53a925-aafc-43fd-aa0e-822aea988d20"
 					(reference "#PWR07003")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "OrbitSplit_Custom:RV-3028-C7")
-		(at 161.29 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ace9816f-6c2d-48a0-8d3e-9f3c63969ae0")
-		(property "Reference" "U7002"
-			(at 160.7521 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RV-3028-C7"
-			(at 160.7521 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "OrbitSplit:RV-3028-C7"
-			(at 186.69 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3028-C7.pdf"
-			(at 161.29 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Realtime Clock/Calendar I2C Interface, Extreme Low Power, 1.1 V to 5.5 V, MicroCrystal C7"
-			(at 161.29 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "bde1da19-5d1b-406a-b69f-828f546b538a")
-		)
-		(pin "2"
-			(uuid "79513e1b-ff78-4d1e-8c6c-54758dcf2add")
-		)
-		(pin "1"
-			(uuid "4f50e6df-0ecb-4ee1-b696-e697e8503c4a")
-		)
-		(pin "4"
-			(uuid "174d7ecf-a5cb-4516-80b5-f523e47b59b2")
-		)
-		(pin "7"
-			(uuid "47be1b83-ecc9-4a90-aa94-1ec65655edfb")
-		)
-		(pin "6"
-			(uuid "fc3c500a-6a8f-40b1-afab-502a2c08b7c5")
-		)
-		(pin "5"
-			(uuid "bff98052-7ea2-4352-a0b6-9e877c1d7d11")
-		)
-		(pin "8"
-			(uuid "c2aa988a-5b63-4ec0-80f4-780d61378591")
-		)
-		(instances
-			(project "MyKeyBoard"
-				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/3b53a925-aafc-43fd-aa0e-822aea988d20"
-					(reference "U7002")
 					(unit 1)
 				)
 			)

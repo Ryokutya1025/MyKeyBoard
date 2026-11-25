@@ -3213,6 +3213,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "U23")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3290,6 +3296,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3363,6 +3375,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "#PWR0159")
 					(unit 1)
 				)
@@ -3446,6 +3464,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "C61")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3520,6 +3544,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "#PWR0151")
 					(unit 1)
 				)
@@ -3604,6 +3634,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "R48")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3679,6 +3715,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "TP21")
 					(unit 1)
 				)
@@ -3762,6 +3804,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "C62")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3840,6 +3888,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "#PWR0158")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3913,6 +3967,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "#PWR0148")
 					(unit 1)
 				)
@@ -3995,6 +4055,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4068,6 +4134,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "#PWR0155")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "#PWR0155")
 					(unit 1)
 				)
@@ -4149,6 +4221,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4222,6 +4300,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "#PWR0146")
 					(unit 1)
 				)
@@ -4305,6 +4389,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "C71")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4384,6 +4474,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "C51")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4459,6 +4555,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "C65")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "C65")
 					(unit 1)
 				)
@@ -4543,6 +4645,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "C66")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4616,6 +4724,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "#PWR0143")
 					(unit 1)
 				)
@@ -4699,6 +4813,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "C72")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4775,6 +4895,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "C70")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "C70")
 					(unit 1)
 				)
@@ -4887,6 +5013,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4963,6 +5095,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "C54")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "C54")
 					(unit 1)
 				)
@@ -5047,6 +5185,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "C68")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5120,6 +5264,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "#PWR0147")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "#PWR0147")
 					(unit 1)
 				)
@@ -5203,6 +5353,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "C55")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5278,6 +5434,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "C69")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "C69")
 					(unit 1)
 				)
@@ -5361,6 +5523,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "C60")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5434,6 +5602,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "#PWR0141")
 					(unit 1)
 				)
@@ -5518,6 +5692,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "C59")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5592,6 +5772,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "#PWR0150")
 					(unit 1)
 				)
@@ -5671,6 +5857,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "TP20")
 					(unit 1)
 				)
@@ -5755,6 +5947,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "C64")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5832,6 +6030,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5905,6 +6109,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "#PWR0145")
 					(unit 1)
 				)
@@ -5987,6 +6197,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6062,6 +6278,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "AE1")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "AE1")
 					(unit 1)
 				)
@@ -6146,6 +6368,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "C52")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6221,6 +6449,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "L5")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "L5")
 					(unit 1)
 				)
@@ -6305,6 +6539,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "C56")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6381,6 +6621,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "C50")
 					(unit 1)
 				)
@@ -6462,6 +6708,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6535,6 +6787,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "#PWR0144")
 					(unit 1)
 				)
@@ -6618,6 +6876,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "C57")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6691,6 +6955,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "#PWR0153")
 					(unit 1)
 				)
@@ -6775,6 +7045,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "L6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6848,6 +7124,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "#PWR0156")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "#PWR0156")
 					(unit 1)
 				)
@@ -6926,6 +7208,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "#PWR0157")
 					(unit 1)
 				)
@@ -7009,6 +7297,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "C53")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7083,6 +7377,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "#PWR0149")
 					(unit 1)
 				)
@@ -7162,6 +7462,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "C67")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "C67")
 					(unit 1)
 				)
@@ -7246,6 +7552,12 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "C58")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7322,6 +7634,12 @@
 		(instances
 			(project "MyKeyBoard"
 				(path "/73b25e18-bccb-4ab0-839a-6017c939d33c/b15d4bc3-bbff-4626-93be-4f3b879ef1cf"
+					(reference "C63")
+					(unit 1)
+				)
+			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
 					(reference "C63")
 					(unit 1)
 				)
@@ -7406,6 +7724,18 @@
 					(unit 1)
 				)
 			)
+			(project "90_NFC_RIGHT"
+				(path "/a7ce5833-8b27-41dd-8b6a-cb8a5e524f0e"
+					(reference "R47")
+					(unit 1)
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
